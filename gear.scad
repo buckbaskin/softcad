@@ -17,7 +17,7 @@ pitch_circum = PI * pitch_diameter;
 num_teeth = 36;
 deg_per_tooth = 360 / num_teeth;
 
-tooth_rad = (pitch_circum / num_teeth) / 2;
+tooth_rad = (pitch_circum / num_teeth) / 4;
 
 union() {
     difference() {
