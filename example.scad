@@ -1,3 +1,8 @@
+// minimum fragment size (mm)
+$fs=0.5;
+// minimum fragment angle (deg)
+$fa=1;
+
 cube([2,2,2]);
 cube([2,2,2], center=true);
 
